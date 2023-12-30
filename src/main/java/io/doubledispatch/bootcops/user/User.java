@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 
 @Getter
 @AllArgsConstructor
-// needed for JPA
+// default constructor needed for JPA
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity
 @Table(name = "copsboot_user")
